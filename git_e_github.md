@@ -40,7 +40,7 @@ outro comando muito importante é o ```git log``` serve para vermos todas as mod
 
 para se  criar ramificações em seus projetos usa-se o seguinte comando
 
-```git checkout -b nome_da_ramificação```
+    git checkout -b nome_da_ramificação
 
 A ramificação criada herda todos os commits da ramificação criada
 
