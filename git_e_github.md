@@ -59,3 +59,17 @@ para se fazer a fusão o branch criado deve se estar no ramo master e para isso 
 
     
 
+
+### Enviando um projeto local para o github
+
+para verificar se existe um repositório remoto, usa-se o seguinte comando
+
+    git remote
+
+para fazer um link do repositório local com um repositório remoto, tem que usar o seguinte comando
+
+    git remote add origin link_do_repositório_web
+
+    
+
+
