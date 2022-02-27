@@ -15,3 +15,9 @@ configurando o seu email
 
 ```git config --global user.mail "seu email@email.com```
 
+para ver os grafos gerados pelo github, voce pode usar os seguintes comandos
+
+    git --log --oneline --graph
+    git --log --oneline --graph -all
+
+    
