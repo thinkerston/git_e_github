@@ -44,3 +44,7 @@ para se  criar ramificações em seus projetos usa-se o seguinte comando
 
 A ramificação criada herda todos os commits da ramificação criada
 
+para retornar ao ramo master tem que usar o seguinte comando
+
+    git checkout master
+
