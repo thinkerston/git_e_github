@@ -20,4 +20,9 @@ para ver os grafos gerados pelo github, voce pode usar os seguintes comandos
     git --log --oneline --graph
     git --log --oneline --graph -all
 
+para se fazer a fusão o branch criado deve se estar no ramo master e para isso usa-se o seguinte comando
+
+    git merge nome_do_ramo_criado
+
     
+
