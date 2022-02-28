@@ -70,6 +70,15 @@ para fazer um link do repositório local com um repositório remoto, tem que usa
 
     git remote add origin link_do_repositório_web
 
+#### configurando o tokem para envio para o repositório web
+
+ para isso é necessário gerar o tokem de acesso no site do github. Após isso você ao usar o comando ```git push -u origin master``` ele vai pedir seu username e token, você pode estar configurando o tokem para evitar de ser pedido toda a vez que envia um repositório web, para isso usa-se o seguinte comando
+
+    git config --global credential.helper cache
+
+e para excluir, só usar:
+
+    git config --global unset credential.helper 
     
 
 
